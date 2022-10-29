@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(path = "/slack/user")
+@RequestMapping(path = "/slackUser")
 public class UserController {
     private  UserService userService;
 
